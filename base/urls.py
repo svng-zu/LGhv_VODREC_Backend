@@ -22,7 +22,7 @@ from service.views import login, test, status_check, login_suc
 urlpatterns = [
     path("admin/", admin.site.urls),
     path('login/', login, name = 'login'),
-    path('test/', test, name = 'test_login'),
+    path('', test, name = 'test_login'),
     path('scheck/', status_check, name = 'token_check'),
     # path("signup/", SignupAPIView.as_view(), name = 'signup'),
     path('login2/', LoginView.as_view(), name = 'login2'),
