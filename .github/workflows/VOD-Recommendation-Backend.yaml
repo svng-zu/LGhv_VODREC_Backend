@@ -43,7 +43,7 @@ jobs:
       - name: Configure AWS Credentials
         uses: aws-actions/configure-aws-credentials@v4
         with:
-          role-to-assume: arn:aws:iam::207955846572:role/VOD-Recommendation-Backend-github
+          role-to-assume: arn:aws:iam::207955846572:role/vod-rocommendation-backend-github
           role-session-name: sampleSessionName
           aws-region: ap-northeast-2
 
